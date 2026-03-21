@@ -193,7 +193,7 @@
         </div>
       </div>
       <div class="lead-form-card">
-        <form action="https://formsubmit.co/daniel.levy.personal@gmail.com" method="POST">
+        <form data-lead-form data-source="homepage">
           <h3>Request Your Free Inspection</h3>
           <div class="form-row">
             <label for="name">Name *</label>
@@ -218,8 +218,7 @@
             <label for="description">Brief Description (Optional)</label>
             <textarea id="description" name="description" rows="3" placeholder="Tell us what happened..."></textarea>
           </div>
-          <input type="hidden" name="_subject" value="New Inspection Request from Website">
-          <input type="hidden" name="_captcha" value="false">
+
           <button type="submit" class="btn btn-orange btn-full">Get My Free Inspection &rarr;</button>
           <p class="form-note">&#128274; Your information is secure and never shared with third parties.</p>
         </form>
@@ -535,5 +534,6 @@
   <a href="tel:+19547014702" class="btn btn-orange btn-full">Call Now &mdash; Free Estimate</a>
 </div>
 
+<script src="leads.js"></script>
 </body>
 </html>

@@ -201,8 +201,7 @@
     <div class="contractor-form-wrap">
       <h2>Apply For Leads In Your Area</h2>
       <p class="form-sub">Fill out the form below and we'll reach out within 24 hours to discuss availability in your market.</p>
-      <form action="https://formsubmit.co/daniel.levy.personal@gmail.com" method="POST">
-        <input type="hidden" name="_subject" value="New Contractor Lead Application">
+      <form data-lead-form data-source="contractor">
         <div class="form-row">
           <label for="name">Full Name *</label>
           <input type="text" id="name" name="name" required placeholder="Your full name">
@@ -307,5 +306,6 @@
   <a href="tel:+19547014702" class="btn btn-orange btn-full">Call Now &mdash; Free Estimate</a>
 </div>
 
+<script src="leads.js"></script>
 </body>
 </html>
